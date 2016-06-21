@@ -1,8 +1,8 @@
-# [Milligram RTL](http://mmnaderi.ir/milligram-rtl) [![GitHub version](https://badge.fury.io/gh/mmnaderi%2Fmilligram-rtl.svg)](https://badge.fury.io/gh/mmnaderi%2Fmilligram-rtl)
+# [Milligram RTL](http://mmnaderi.ir/milligram-rtl)
 
 A minimalist RTL CSS framework.
 
-![Milligram Rtl thumbnail](http://mmnaderi.ir/milligram-rtl/img/thumbnail.jpg)
+[![GitHub version](https://badge.fury.io/gh/mmnaderi%2Fmilligram-rtl.svg)](https://badge.fury.io/gh/mmnaderi%2Fmilligram-rtl)
 
 
 ## Why it's awesome?
