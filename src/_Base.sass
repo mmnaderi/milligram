@@ -2,6 +2,23 @@
 // Base
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
 
+// Samim Fonts
+@font-face
+	font-family: Samim
+	src: url('fonts/Samim.eot')
+	src: url('fonts/Samim.eot?#iefix') format('embedded-opentype')
+	src: url('fonts/Samim.woff') format('woff')
+	src: url('fonts/Samim.ttf') format('truetype')
+	font-weight: normal
+
+@font-face
+	font-family: Samim
+	src: url('fonts/Samim-Bold.eot')
+	src: url('fonts/Samim-Bold.eot?#iefix') format('embedded-opentype')
+	src: url('fonts/Samim-Bold.woff') format('woff')
+	src: url('fonts/Samim-Bold.ttf') format('truetype')
+	font-weight: bold
+
 // The base font-size is set at 62.5% for having the convenience
 // of sizing rems in a way that is similar to using px. 1.6rem=16px
 html
@@ -11,11 +28,12 @@ html
 // Default body styles
 body
 	color: $color-secondary
-	font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif
+	font-family: 'Samim', 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif
 	font-size: 1.6em // currently ems cause chrome bug misinterpreting rems on body element
 	font-weight: 300
 	letter-spacing: .01em
 	line-height: 1.6
+	direction: rtl
 
 // Set box-sizing globally to handle padding and border widths
 *,

@@ -12,6 +12,8 @@ input[type='url'],
 textarea,
 select
 	appearance: none // Removes awkward default styles on some inputs for iOS
+	-webkit-appearance: none
+	-moz-appearance: none
 	background-color: transparent
 	border: .1rem solid $color-quaternary
 	border-radius: .4rem
@@ -25,8 +27,8 @@ select
 		outline: 0
 
 select
-	padding: 0.6rem 3rem 0.6rem 1rem
-	background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMTQiIHZpZXdCb3g9IjAgMCAyOSAxNCIgd2lkdGg9IjI5Ij48cGF0aCBmaWxsPSIjZDFkMWQxIiBkPSJNOS40IDMuNmw1IDcgNS4yLTciLz48L3N2Zz4=) center right no-repeat
+	padding: 0.6rem 1rem 0.6rem 3rem
+	background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMTQiIHZpZXdCb3g9IjAgMCAyOSAxNCIgd2lkdGg9IjI5Ij48cGF0aCBmaWxsPSIjZDFkMWQxIiBkPSJNOS40IDMuNmw1IDcgNS4yLTciLz48L3N2Zz4=) center left no-repeat
 
 	&:focus
 		background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMTQiIHZpZXdCb3g9IjAgMCAyOSAxNCIgd2lkdGg9IjI5Ij48cGF0aCBmaWxsPSIjOWI0ZGNmIiBkPSJNMTkuNiAzLjZIOS40bDUgNyIvPjwvc3ZnPg==)
@@ -54,4 +56,4 @@ input[type='radio']
 .label-inline
 	font-weight: normal
 	display: inline-block
-	margin-left: .5rem
+	margin-right: .5rem
