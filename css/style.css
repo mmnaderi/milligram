@@ -95,6 +95,7 @@ img {
 }
 
 .header .title {
+    font-weight: bold;
     /*font-family: 'Gotham Rounded A', 'Gotham Rounded B', 'Helvetica Neue', Arial, sans-serif;*/
 }
 
