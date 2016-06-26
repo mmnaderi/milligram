@@ -565,11 +565,11 @@ pre.prettyprint.lang-md * {
     color: #655d5d !important;
 }
 
-/* Clickyab ads
+/* Ads
 // –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-.adhere {
-    margin-top: 1rem;
+header iframe {
+  display: block;
+  margin: 1rem auto 0 auto;
 }
 
 /* Others
